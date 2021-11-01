@@ -7,11 +7,11 @@ int sum(int a, int b)
     return c;
 }
 // This Function Will not swap the value of a and b 
-void swap(int a, int b)
+void swap(int x, int y)
 {
-    int temp = a;
-    a = b;
-    b = temp;
+    int temp = x;
+    x = y;
+    y = temp;
 }
 // This is called ( Call By Refrence using Pointers)
 void swapPointer(int* a, int* b)
@@ -34,7 +34,8 @@ int main()
 //  cout<<"The Sum of 4 and 5 is "<<sum(4,5);
     cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl;
 //  swap(x,y);
-    swapPointerVar(x, y);
+    swapPointer(&x, &y);
+//    swapPointerVar(x, y);
     cout<<"The value of x is "<<x<<" and the value of y is "<<y<<endl;
     return 0;
 }
