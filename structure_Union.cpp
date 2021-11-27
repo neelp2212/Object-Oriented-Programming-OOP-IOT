@@ -10,10 +10,13 @@ struct employee
 
 int main()
 {
-    struct employee neel;
+/*    struct employee neel;
     neel.id = 31;
     neel.favChar = 'c';
     neel.salary = 15000000;
     cout<<neel.id<<endl;
     cout<<neel.salary<<endl;
+ */
+
+
 }
